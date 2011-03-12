@@ -6,6 +6,7 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.KeyEvent;
 import android.widget.Toast;
 
 public class Whistle extends Activity implements OnClickListener{
@@ -20,7 +21,7 @@ public class Whistle extends Activity implements OnClickListener{
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        //Toast.makeText(this, "onCreate", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "onCreate", Toast.LENGTH_LONG).show();
         
         // Set up click listeners for all the buttons.
         whistleBtn = findViewById(R.id.whistle_button);
@@ -29,17 +30,42 @@ public class Whistle extends Activity implements OnClickListener{
     }
     
     @Override
-    public void onStop(){
-	    super.onStop();
+    public void onDestroy(){
+	    super.onDestroy();
 	    Toast.makeText(this, "onDestroy", Toast.LENGTH_LONG).show();
 	    if(mp != null){
 		    mp.pause();
 	    }
 	    System.exit(RESULT_OK);
-	    return;
     }
     
+    @Override
+    public void onStop(){
+	    super.onStop();
+	    Toast.makeText(this, "onStop", Toast.LENGTH_LONG).show();
+	    if(mp != null){
+		    mp.pause();
+	    }
+    }
     
+    @Override
+    public void onPause(){
+	    super.onPause();
+	    Toast.makeText(this, "onPause", Toast.LENGTH_LONG).show();
+	    if(mp != null){
+		    mp.pause();
+	    }
+    }
+    
+    @Override
+    public boolean onKeyDown(int KeyCode, KeyEvent event){
+	    Toast.makeText(this, "onKeyDown", Toast.LENGTH_LONG).show();
+	    if(mp != null){
+		    mp.pause();
+	    }
+	    System.exit(RESULT_OK);
+	    return true;
+    }
     public void onClick(View v){
 	    // Release any resources from previous MediaPlayer
 	    if(mp != null){

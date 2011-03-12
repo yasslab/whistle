@@ -1,0 +1,43 @@
+Development: @riarne2000, @yasulab
+Design: @migihiza
+Date: 03/13/2011
+
+Whistle on Android/iPhone
+
+Description
+-----------
+According to the rule of thumb in Japan, whistles help you
+survive after natural disasters such as Tsunamis and earthquakes.
+In particular, they will be beneficial in case that you cannot
+escape from collapsed buildings. However, it is not in practice
+to always hold a whistle for disasters that you cannot expect to
+occur. So, put it into your belongings, your smart phones. This
+will help you when accidents happen. Whistle on iPhone can be
+downloaded from App Store as well.
+
+
+How to Get App
+--------------
+Android
+- https://market.android.com/details?id=org.sorarier.whistle&feature=search_result&hl=en
+
+iPhone
+- //To Be Determined.
+
+
+Get Latest Code
+---------------
+If you would like to see/run the latest code,
+type following command to clone it with Git.
+
+    $ git clone git://github.com/yasulab/whistle.git
+
+Or, visit the following repository.
+
+    https://github.com/yasulab/a-star-algorithm
+
+To clone the code, you need to install Git.
+
+    Git - Fast Version Control System
+    http://git-scm.com/
+
