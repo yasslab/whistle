@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:background="@drawable/background"
+   android:layout_height="fill_parent"
+   android:layout_width="fill_parent"
+   android:padding="30dip"
+   android:orientation="horizontal">
+   <LinearLayout
+      android:orientation="vertical"
+      android:layout_height="wrap_content"
+      android:layout_width="fill_parent"
+      android:layout_gravity="center">
+      <Button
+      	 android:id="@+id/whistle_button"
+      	 android:background="@drawable/btn_stateful"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/whistle_label" />
+   </LinearLayout>
+</LinearLayout>
