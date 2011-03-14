@@ -10,17 +10,15 @@ import android.widget.Toast;
 
 public class Whistle extends Activity implements OnClickListener{
     private MediaPlayer mp;
-    private int resId = R.raw.whistle;
+    private int resId = R.raw.whistle2;
     private boolean whistling = false;
     private View whistleBtn;
-    //private View stopBtn;
 
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        //Toast.makeText(this, "onCreate", Toast.LENGTH_LONG).show();
         
         // Set up click listeners for all the buttons.
         whistleBtn = findViewById(R.id.whistle_button);
@@ -33,7 +31,7 @@ public class Whistle extends Activity implements OnClickListener{
 	    super.onStop();
 	    Toast.makeText(this, "onDestroy", Toast.LENGTH_LONG).show();
 	    if(mp != null){
-		    mp.pause();
+		    mp.release();
 	    }
 	    System.exit(RESULT_OK);
 	    return;
@@ -43,15 +41,13 @@ public class Whistle extends Activity implements OnClickListener{
     public void onClick(View v){
 	    // Release any resources from previous MediaPlayer
 	    if(mp != null){
-		    mp.pause();
+		    mp.release();
 	    }
 	    switch (v.getId()){
 	    case R.id.whistle_button:
 		    if(whistling == false){
 			    v.setBackgroundResource(R.drawable.btn_off);
-			    //v.setVisibility(View.INVISIBLE);			    
-			    //stopBtn.setVisibility(View.VISIBLE);
-			 // Create a new MediaPlayer to play this sound
+			    // Create a new MediaPlayer to play this sound
 			    mp = MediaPlayer.create(this, resId);
 			    mp.setLooping(true);
 			    mp.start();
