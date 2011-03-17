@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 public class Whistle extends Activity implements OnClickListener{
     private MediaPlayer mp;
-    private int resId = R.raw.whistle2;
+    private int resId = R.raw.whistle;
     private boolean whistling = false;
     private View whistleBtn;
 
@@ -27,13 +27,12 @@ public class Whistle extends Activity implements OnClickListener{
     }
     
     @Override
-    public void onStop(){
+    public void onStop(){ // This method is called when rotating portrait to landscape and vice versa.
 	    super.onStop();
-	    Toast.makeText(this, "onDestroy", Toast.LENGTH_LONG).show();
+	    //Toast.makeText(this, "onStop", Toast.LENGTH_LONG).show();
 	    if(mp != null){
 		    mp.release();
 	    }
-	    System.exit(RESULT_OK);
 	    return;
     }
     

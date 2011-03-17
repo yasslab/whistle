@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		476FED08132BB7D900A9EF6E /* btn_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 476FED06132BB7D900A9EF6E /* btn_off.png */; };
+		476FED09132BB7D900A9EF6E /* btn_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 476FED07132BB7D900A9EF6E /* btn_on.png */; };
+		47721DD6132B8164006DBF1D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47721DD5132B8164006DBF1D /* UIKit.framework */; };
+		47721DD8132B8164006DBF1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47721DD7132B8164006DBF1D /* Foundation.framework */; };
+		47721DDA132B8164006DBF1D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47721DD9132B8164006DBF1D /* CoreGraphics.framework */; };
+		47721DE0132B8164006DBF1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47721DDE132B8164006DBF1D /* InfoPlist.strings */; };
+		47721DE3132B8164006DBF1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47721DE2132B8164006DBF1D /* main.m */; };
+		47721DE6132B8164006DBF1D /* WhistleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47721DE5132B8164006DBF1D /* WhistleAppDelegate.m */; };
+		47721DE9132B8164006DBF1D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47721DE7132B8164006DBF1D /* MainWindow.xib */; };
+		47721DEC132B8165006DBF1D /* WhistleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47721DEB132B8165006DBF1D /* WhistleViewController.m */; };
+		47721DEF132B8165006DBF1D /* WhistleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47721DED132B8165006DBF1D /* WhistleViewController.xib */; };
+		47721DF6132B8165006DBF1D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47721DD5132B8164006DBF1D /* UIKit.framework */; };
+		47721DF7132B8165006DBF1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47721DD7132B8164006DBF1D /* Foundation.framework */; };
+		47721DF8132B8165006DBF1D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47721DD9132B8164006DBF1D /* CoreGraphics.framework */; };
+		47721E00132B8165006DBF1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47721DFE132B8165006DBF1D /* InfoPlist.strings */; };
+		47721E03132B8165006DBF1D /* WhistleTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 47721E02132B8165006DBF1D /* WhistleTests.h */; };
+		47721E05132B8165006DBF1D /* WhistleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47721E04132B8165006DBF1D /* WhistleTests.m */; };
+		47721E14132B8C04006DBF1D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47721E13132B8C04006DBF1D /* AVFoundation.framework */; };
+		47721E29132B8F12006DBF1D /* whistle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47721E27132B8F12006DBF1D /* whistle.mp3 */; };
+		4776876C132BAD630052667C /* icon_57px.png in Resources */ = {isa = PBXBuildFile; fileRef = 4776876B132BAD630052667C /* icon_57px.png */; };
+		47768772132BADEA0052667C /* icon_57px.png in Resources */ = {isa = PBXBuildFile; fileRef = 47768771132BADEA0052667C /* icon_57px.png */; };
+		47E61D41132BBCE500DF3CB9 /* sei_ge_hoissuru01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E61D40132BBCE500DF3CB9 /* sei_ge_hoissuru01.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47721DF9132B8165006DBF1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47721DC8132B8164006DBF1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47721DD0132B8164006DBF1D;
+			remoteInfo = Whistle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		476FED06132BB7D900A9EF6E /* btn_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_off.png; sourceTree = "<group>"; };
+		476FED07132BB7D900A9EF6E /* btn_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_on.png; sourceTree = "<group>"; };
+		47721DD1132B8164006DBF1D /* Whistle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Whistle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47721DD5132B8164006DBF1D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		47721DD7132B8164006DBF1D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		47721DD9132B8164006DBF1D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		47721DDD132B8164006DBF1D /* Whistle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Whistle-Info.plist"; sourceTree = "<group>"; };
+		47721DDF132B8164006DBF1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		47721DE1132B8164006DBF1D /* Whistle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Whistle-Prefix.pch"; sourceTree = "<group>"; };
+		47721DE2132B8164006DBF1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47721DE4132B8164006DBF1D /* WhistleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhistleAppDelegate.h; sourceTree = "<group>"; };
+		47721DE5132B8164006DBF1D /* WhistleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhistleAppDelegate.m; sourceTree = "<group>"; };
+		47721DE8132B8164006DBF1D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		47721DEA132B8165006DBF1D /* WhistleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhistleViewController.h; sourceTree = "<group>"; };
+		47721DEB132B8165006DBF1D /* WhistleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhistleViewController.m; sourceTree = "<group>"; };
+		47721DEE132B8165006DBF1D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WhistleViewController.xib; sourceTree = "<group>"; };
+		47721DF5132B8165006DBF1D /* WhistleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhistleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47721DFD132B8165006DBF1D /* WhistleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhistleTests-Info.plist"; sourceTree = "<group>"; };
+		47721DFF132B8165006DBF1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		47721E01132B8165006DBF1D /* WhistleTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhistleTests-Prefix.pch"; sourceTree = "<group>"; };
+		47721E02132B8165006DBF1D /* WhistleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhistleTests.h; sourceTree = "<group>"; };
+		47721E04132B8165006DBF1D /* WhistleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhistleTests.m; sourceTree = "<group>"; };
+		47721E11132B8B6B006DBF1D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		47721E13132B8C04006DBF1D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		47721E27132B8F12006DBF1D /* whistle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whistle.mp3; sourceTree = "<group>"; };
+		4776876B132BAD630052667C /* icon_57px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_57px.png; sourceTree = "<group>"; };
+		47768771132BADEA0052667C /* icon_57px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_57px.png; sourceTree = "<group>"; };
+		47E61D40132BBCE500DF3CB9 /* sei_ge_hoissuru01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sei_ge_hoissuru01.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47721DCE132B8164006DBF1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47721E14132B8C04006DBF1D /* AVFoundation.framework in Frameworks */,
+				47721DD6132B8164006DBF1D /* UIKit.framework in Frameworks */,
+				47721DD8132B8164006DBF1D /* Foundation.framework in Frameworks */,
+				47721DDA132B8164006DBF1D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47721DF1132B8165006DBF1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47721DF6132B8165006DBF1D /* UIKit.framework in Frameworks */,
+				47721DF7132B8165006DBF1D /* Foundation.framework in Frameworks */,
+				47721DF8132B8165006DBF1D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47721DC6132B8164006DBF1D = {
+			isa = PBXGroup;
+			children = (
+				47768771132BADEA0052667C /* icon_57px.png */,
+				47721E13132B8C04006DBF1D /* AVFoundation.framework */,
+				47721E11132B8B6B006DBF1D /* AudioToolbox.framework */,
+				47721DDB132B8164006DBF1D /* Whistle */,
+				47721DFB132B8165006DBF1D /* WhistleTests */,
+				47721DD4132B8164006DBF1D /* Frameworks */,
+				47721DD2132B8164006DBF1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47721DD2132B8164006DBF1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47721DD1132B8164006DBF1D /* Whistle.app */,
+				47721DF5132B8165006DBF1D /* WhistleTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47721DD4132B8164006DBF1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47721DD5132B8164006DBF1D /* UIKit.framework */,
+				47721DD7132B8164006DBF1D /* Foundation.framework */,
+				47721DD9132B8164006DBF1D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47721DDB132B8164006DBF1D /* Whistle */ = {
+			isa = PBXGroup;
+			children = (
+				47721E16132B8DD0006DBF1D /* Classes */,
+				47721E15132B8DBC006DBF1D /* images */,
+				47721E0F132B8196006DBF1D /* xib */,
+				47721DDC132B8164006DBF1D /* Supporting Files */,
+			);
+			path = Whistle;
+			sourceTree = "<group>";
+		};
+		47721DDC132B8164006DBF1D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47721DDD132B8164006DBF1D /* Whistle-Info.plist */,
+				47721DDE132B8164006DBF1D /* InfoPlist.strings */,
+				47721DE1132B8164006DBF1D /* Whistle-Prefix.pch */,
+				47721DE2132B8164006DBF1D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47721DFB132B8165006DBF1D /* WhistleTests */ = {
+			isa = PBXGroup;
+			children = (
+				47721E02132B8165006DBF1D /* WhistleTests.h */,
+				47721E04132B8165006DBF1D /* WhistleTests.m */,
+				47721DFC132B8165006DBF1D /* Supporting Files */,
+			);
+			path = WhistleTests;
+			sourceTree = "<group>";
+		};
+		47721DFC132B8165006DBF1D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47721DFD132B8165006DBF1D /* WhistleTests-Info.plist */,
+				47721DFE132B8165006DBF1D /* InfoPlist.strings */,
+				47721E01132B8165006DBF1D /* WhistleTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47721E0E132B8181006DBF1D /* delegate */ = {
+			isa = PBXGroup;
+			children = (
+				47721DE4132B8164006DBF1D /* WhistleAppDelegate.h */,
+				47721DE5132B8164006DBF1D /* WhistleAppDelegate.m */,
+			);
+			name = delegate;
+			sourceTree = "<group>";
+		};
+		47721E0F132B8196006DBF1D /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				47721DE7132B8164006DBF1D /* MainWindow.xib */,
+				47721DED132B8165006DBF1D /* WhistleViewController.xib */,
+			);
+			name = xib;
+			sourceTree = "<group>";
+		};
+		47721E15132B8DBC006DBF1D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				47E61D40132BBCE500DF3CB9 /* sei_ge_hoissuru01.mp3 */,
+				476FED06132BB7D900A9EF6E /* btn_off.png */,
+				476FED07132BB7D900A9EF6E /* btn_on.png */,
+				4776876B132BAD630052667C /* icon_57px.png */,
+				47721E27132B8F12006DBF1D /* whistle.mp3 */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		47721E16132B8DD0006DBF1D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				47721E0E132B8181006DBF1D /* delegate */,
+				47721DEA132B8165006DBF1D /* WhistleViewController.h */,
+				47721DEB132B8165006DBF1D /* WhistleViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47721DD0132B8164006DBF1D /* Whistle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47721E08132B8165006DBF1D /* Build configuration list for PBXNativeTarget "Whistle" */;
+			buildPhases = (
+				47721DCD132B8164006DBF1D /* Sources */,
+				47721DCE132B8164006DBF1D /* Frameworks */,
+				47721DCF132B8164006DBF1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Whistle;
+			productName = Whistle;
+			productReference = 47721DD1132B8164006DBF1D /* Whistle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47721DF4132B8165006DBF1D /* WhistleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47721E0B132B8165006DBF1D /* Build configuration list for PBXNativeTarget "WhistleTests" */;
+			buildPhases = (
+				47721DF0132B8165006DBF1D /* Sources */,
+				47721DF1132B8165006DBF1D /* Frameworks */,
+				47721DF2132B8165006DBF1D /* Resources */,
+				47721DF3132B8165006DBF1D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47721DFA132B8165006DBF1D /* PBXTargetDependency */,
+			);
+			name = WhistleTests;
+			productName = WhistleTests;
+			productReference = 47721DF5132B8165006DBF1D /* WhistleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47721DC8132B8164006DBF1D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 47721DCB132B8164006DBF1D /* Build configuration list for PBXProject "Whistle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 47721DC6132B8164006DBF1D;
+			productRefGroup = 47721DD2132B8164006DBF1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47721DD0132B8164006DBF1D /* Whistle */,
+				47721DF4132B8165006DBF1D /* WhistleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47721DCF132B8164006DBF1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47721DE0132B8164006DBF1D /* InfoPlist.strings in Resources */,
+				47721DE9132B8164006DBF1D /* MainWindow.xib in Resources */,
+				47721DEF132B8165006DBF1D /* WhistleViewController.xib in Resources */,
+				47721E29132B8F12006DBF1D /* whistle.mp3 in Resources */,
+				4776876C132BAD630052667C /* icon_57px.png in Resources */,
+				47768772132BADEA0052667C /* icon_57px.png in Resources */,
+				476FED08132BB7D900A9EF6E /* btn_off.png in Resources */,
+				476FED09132BB7D900A9EF6E /* btn_on.png in Resources */,
+				47E61D41132BBCE500DF3CB9 /* sei_ge_hoissuru01.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47721DF2132B8165006DBF1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47721E00132B8165006DBF1D /* InfoPlist.strings in Resources */,
+				47721E03132B8165006DBF1D /* WhistleTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47721DF3132B8165006DBF1D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47721DCD132B8164006DBF1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47721DE3132B8164006DBF1D /* main.m in Sources */,
+				47721DE6132B8164006DBF1D /* WhistleAppDelegate.m in Sources */,
+				47721DEC132B8165006DBF1D /* WhistleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47721DF0132B8165006DBF1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47721E05132B8165006DBF1D /* WhistleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47721DFA132B8165006DBF1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47721DD0132B8164006DBF1D /* Whistle */;
+			targetProxy = 47721DF9132B8165006DBF1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47721DDE132B8164006DBF1D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47721DDF132B8164006DBF1D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		47721DE7132B8164006DBF1D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47721DE8132B8164006DBF1D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		47721DED132B8165006DBF1D /* WhistleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47721DEE132B8165006DBF1D /* en */,
+			);
+			name = WhistleViewController.xib;
+			sourceTree = "<group>";
+		};
+		47721DFE132B8165006DBF1D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47721DFF132B8165006DBF1D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47721E06132B8165006DBF1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		47721E07132B8165006DBF1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		47721E09132B8165006DBF1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Whistle/Whistle-Prefix.pch";
+				INFOPLIST_FILE = "Whistle/Whistle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		47721E0A132B8165006DBF1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Whistle/Whistle-Prefix.pch";
+				INFOPLIST_FILE = "Whistle/Whistle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		47721E0C132B8165006DBF1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Whistle.app/Whistle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhistleTests/WhistleTests-Prefix.pch";
+				INFOPLIST_FILE = "WhistleTests/WhistleTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		47721E0D132B8165006DBF1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Whistle.app/Whistle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhistleTests/WhistleTests-Prefix.pch";
+				INFOPLIST_FILE = "WhistleTests/WhistleTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47721DCB132B8164006DBF1D /* Build configuration list for PBXProject "Whistle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47721E06132B8165006DBF1D /* Debug */,
+				47721E07132B8165006DBF1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47721E08132B8165006DBF1D /* Build configuration list for PBXNativeTarget "Whistle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47721E09132B8165006DBF1D /* Debug */,
+				47721E0A132B8165006DBF1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47721E0B132B8165006DBF1D /* Build configuration list for PBXNativeTarget "WhistleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47721E0C132B8165006DBF1D /* Debug */,
+				47721E0D132B8165006DBF1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47721DC8132B8164006DBF1D /* Project object */;
+}
