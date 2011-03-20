@@ -61,9 +61,7 @@ Or, visit the following repository. ::
 
     https://github.com/yasulab/a-star-algorithm
 
-To clone the code, you need to install Git. ::
-
-    `Git - Fast Version Control System <http://git-scm.com/>`_
+To clone the code, you need to install `Git <http://git-scm.com/>`_.
 
 Copyright
 ---------
