@@ -63,7 +63,7 @@ Or, visit the following repository. ::
 
 To clone the code, you need to install Git. ::
 
-    `Git - Fast Version Control System <http://git-scm.com/>`
+    `Git - Fast Version Control System <http://git-scm.com/>`_
 
 Copyright
 ---------
