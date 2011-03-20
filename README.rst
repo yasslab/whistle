@@ -47,7 +47,7 @@ Contact
 
 - **Android Development:** `@yasulab <http://twitter.com/yasulab>`_
 - **iPhone Development:** `@riarne2000 <http://twitter.com/riarne2000>`_
-- **Design:** .. `@migihiza <http://twitter.com/migihiza>`_
+- **Design:** `@migihiza <http://twitter.com/migihiza>`_
 
 
 Get Latest Code
