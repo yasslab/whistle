@@ -1,8 +1,7 @@
-Development: @riarne2000, @yasulab
-Design: @migihiza
-Date: 03/13/2011
-
 Whistle on Android/iPhone
+=========================
+
+Whistle on Android/iPhone is a smart phone application that signals SOS for emergency.
 
 Description(en)
 ---------------
@@ -35,26 +34,44 @@ Android版/iPhone版の両方があります。
 
 How to Get App
 --------------
-Android
-- https://market.android.com/details?id=org.sorarier.whistle&feature=search_result&hl=en
+* Android ::
 
-iPhone
-- //To Be Determined.
+   https://market.android.com/details?id=org.sorarier.whistle
+
+* iPhone ::
+
+   // Waiting for the review from Apple
+
+Contact
+-------
+**iPhone Development:** .. _@riarne2000: http://twitter.com/riarne2000
+**Android Development:** .. _@yasulab: http://twitter.com/yasulab
+**Design:** .. _@migihiza: http://twitter.com/migihiza
 
 
 Get Latest Code
 ---------------
 If you would like to see/run the latest code,
-type following command to clone it with Git.
+type following command to clone it with Git. ::
 
     $ git clone git://github.com/yasulab/whistle.git
 
-Or, visit the following repository.
+Or, visit the following repository. ::
 
     https://github.com/yasulab/a-star-algorithm
 
-To clone the code, you need to install Git.
+To clone the code, you need to install Git. ::
 
-    Git - Fast Version Control System
-    http://git-scm.com/
+    `Git - Fast Version Control System <http://git-scm.com/>`
 
+Copyright
+---------
+
+Copyright (c) 2011 riarne2000, yasulab, migihiza
+
+License
+-------
+
+All files in source are under the `GNU GPL License <http://www.gnu.org/licenses/gpl.html>`.
+
+For details, please see the ``COPYING`` in source.

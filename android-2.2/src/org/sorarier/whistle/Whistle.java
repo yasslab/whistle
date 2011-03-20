@@ -9,7 +9,6 @@ import android.view.View;
 import android.view.View.OnClickListener;
 //import android.widget.Toast;
 import android.media.AudioManager;
-import android.media.SoundPool; 
 import android.content.Context;
 
 public class Whistle extends Activity implements OnClickListener{
@@ -17,9 +16,9 @@ public class Whistle extends Activity implements OnClickListener{
     private int resId;
     private boolean whistling;
     private View whistleBtn;
-    SoundPool soundPool;  
-    AudioManager audio;
-    int maxVol;
+    private AudioManager audio;
+    private int maxVol;
+    private int currentVol;
     
     /** Called when the activity is first created. */
     @Override
@@ -41,6 +40,7 @@ public class Whistle extends Activity implements OnClickListener{
         
         // audio setting
         audio = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
+        currentVol = audio.getStreamVolume(AudioManager.STREAM_MUSIC);
         maxVol = audio.getStreamMaxVolume(AudioManager.STREAM_MUSIC);
         audio.setStreamVolume(AudioManager.STREAM_MUSIC, maxVol, AudioManager.FLAG_SHOW_UI);
         audio.setRingerMode(AudioManager.RINGER_MODE_NORMAL);
@@ -55,6 +55,7 @@ public class Whistle extends Activity implements OnClickListener{
 		whistleBtn.setBackgroundResource(R.drawable.btn_on);
 		whistling = false;
 	    }
+	    audio.setStreamVolume(AudioManager.STREAM_MUSIC, currentVol, 0);
 	    return;
     }
     
