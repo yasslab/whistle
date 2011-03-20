@@ -44,9 +44,9 @@ How to Get App
 
 Contact
 -------
-**iPhone Development:** .. _@riarne2000: http://twitter.com/riarne2000
-**Android Development:** .. _@yasulab: http://twitter.com/yasulab
-**Design:** .. _@migihiza: http://twitter.com/migihiza
+**Android Development:** `@yasulab <http://twitter.com/yasulab>`_
+**iPhone Development:** `@riarne2000 <http://twitter.com/riarne2000>`_
+**Design:** .. `@migihiza <http://twitter.com/migihiza>`_
 
 
 Get Latest Code
@@ -67,11 +67,11 @@ To clone the code, you need to install Git. ::
 Copyright
 ---------
 
-Copyright (c) 2011 riarne2000, yasulab, migihiza
+Copyright (c) 2011 @yasulab, @riarne2000, @migihiza
 
 License
 -------
 
-All files in source are under the `GNU GPL License <http://www.gnu.org/licenses/gpl.html>`.
+All files in source are under the `GNU GPL License <http://www.gnu.org/licenses/gpl.html>`_.
 
 For details, please see the ``COPYING`` in source.
