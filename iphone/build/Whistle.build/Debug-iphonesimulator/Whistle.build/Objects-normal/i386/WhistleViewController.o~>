@@ -1,0 +1,2 @@
+/Users/yohei/Dropbox/whistle/iphone/Whistle/WhistleViewController.m:134: error: redefinition of '-[WhistleViewController viewDidLoad]'
+/Users/yohei/Dropbox/whistle/iphone/Whistle/WhistleViewController.m:46: error: previous definition of '-[WhistleViewController viewDidLoad]' was here

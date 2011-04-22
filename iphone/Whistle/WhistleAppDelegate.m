@@ -12,7 +12,7 @@
 
 @implementation WhistleAppDelegate
 
-
+// TODO:maybe added manually???
 @synthesize window=_window;
 
 @synthesize viewController=_viewController;

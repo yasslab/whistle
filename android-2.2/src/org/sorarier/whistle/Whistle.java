@@ -1,13 +1,10 @@
 package org.sorarier.whistle;
 
-import java.io.IOException;
-
 import android.app.Activity;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
-//import android.widget.Toast;
 import android.media.AudioManager;
 import android.content.Context;
 
@@ -73,7 +70,8 @@ public class Whistle extends Activity implements OnClickListener{
 			    mp = MediaPlayer.create(this, resId);
 			    mp.setVolume(1.0f, 1.0f);
 			    mp.setLooping(true);			    
-			    mp.start();
+			    mp.start();			    
+			    
 			    whistling = true;
 			    return;
 		    }else{

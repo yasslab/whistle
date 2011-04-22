@@ -1,0 +1,589 @@
+TWhistle
+v7
+r0
+t324872587.674465
+cCheck dependencies
+cCpResource build/Debug-iphoneos/Whistle.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/Info.plist Whistle/Whistle-Info.plist
+cProcessPCH /var/folders/GM/GMUwth-mHn8RTzYcaxjK2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whistle-Prefix-hfiibbynppeudpeeksbgjhmlmojl/Whistle-Prefix.pch.gch Whistle/Whistle-Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
+cProcessPCH /var/folders/GM/GMUwth-mHn8RTzYcaxjK2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whistle-Prefix-bchexwkfdvhbpoboyihvnzkqjejw/Whistle-Prefix.pch.gch Whistle/Whistle-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv6/main.o /Users/yohei/Dropbox/whistle/iphone/Whistle/main.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv6/WhistleAppDelegate.o /Users/yohei/Dropbox/whistle/iphone/Whistle/WhistleAppDelegate.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv6/WhistleViewController.o /Users/yohei/Dropbox/whistle/iphone/Whistle/WhistleViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv7/main.o /Users/yohei/Dropbox/whistle/iphone/Whistle/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv7/WhistleAppDelegate.o /Users/yohei/Dropbox/whistle/iphone/Whistle/WhistleAppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv7/WhistleViewController.o /Users/yohei/Dropbox/whistle/iphone/Whistle/WhistleViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cLd /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv6/Whistle normal armv6
+cLd /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv7/Whistle normal armv7
+cCreateUniversalBinary /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/Whistle normal "armv6 armv7"
+cGenerateDSYMFile /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app.dSYM /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/Whistle
+cCopyStringsFile /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/en.lproj/InfoPlist.strings Whistle/en.lproj/InfoPlist.strings
+cCompileXIB /Users/yohei/Dropbox/whistle/iphone/Whistle/en.lproj/MainWindow.xib
+cCompileXIB /Users/yohei/Dropbox/whistle/iphone/Whistle/en.lproj/WhistleViewController.xib
+cCpResource build/Debug-iphoneos/Whistle.app/whistle.mp3 Whistle/whistle.mp3
+cCopyPNGFile /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/icon_57px.png Whistle/icon_57px.png
+cCopyPNGFile /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/icon_57px.png icon_57px.png
+cCopyPNGFile /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/btn_off.png Whistle/btn_off.png
+cCopyPNGFile /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/btn_on.png Whistle/btn_on.png
+cCpResource build/Debug-iphoneos/Whistle.app/sei_ge_hoissuru01.mp3 Whistle/sei_ge_hoissuru01.mp3
+cProcessProductPackaging "/Users/yohei/Library/MobileDevice/Provisioning Profiles/D9BC9896-67E5-4077-BB46-DC454BAC9E5E.mobileprovision" /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/embedded.mobileprovision
+cTouch /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle.xcent
+cCodeSign /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app
+cValidate /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004CC11C42000000000020BF30
+t1287724098
+s2146096
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004CC11C240000000000000733
+t1287724068
+s1843
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/Availability.h
+c000000004CB3FBB80000000000001ADD
+t1286863800
+s6877
+
+N/Users/yohei/Dropbox/whistle/iphone/Whistle/Whistle-Prefix.pch
+c000000004D8165240000000000000140
+t1300325668
+s320
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/yohei/Dropbox/whistle/iphone/Whistle/WhistleAppDelegate.h
+c000000004D816524000000000000019E
+t1300325668
+s414
+i<UIKit/UIKit.h>
+
+N/Users/yohei/Dropbox/whistle/iphone/Whistle/WhistleAppDelegate.m
+c000000004D9A99DE0000000000000980
+t1301977566
+s2432
+i"WhistleAppDelegate.h"
+i"WhistleViewController.h"
+
+N/Users/yohei/Dropbox/whistle/iphone/Whistle/WhistleViewController.h
+c000000004D9A9A210000000000000275
+t1301977633
+s629
+i<UIKit/UIKit.h>
+i<AVFoundation/AVFoundation.h>
+
+N/Users/yohei/Dropbox/whistle/iphone/Whistle/WhistleViewController.m
+c000000004D9A9B680000000000000ED0
+t1301977960
+s3792
+i"WhistleViewController.h"
+
+N/Users/yohei/Dropbox/whistle/iphone/Whistle/btn_off.png
+c000000004D81652400000000000018C5
+t1300325668
+s6341
+
+N/Users/yohei/Dropbox/whistle/iphone/Whistle/btn_on.png
+c000000004D8165240000000000001573
+t1300325668
+s5491
+
+N/Users/yohei/Dropbox/whistle/iphone/Whistle/en.lproj/InfoPlist.strings
+c000000004D816524000000000000002D
+t1300325668
+s45
+
+N/Users/yohei/Dropbox/whistle/iphone/Whistle/en.lproj/MainWindow.xib
+c000000004D8165240000000000004E19
+t1300325668
+s19993
+
+N/Users/yohei/Dropbox/whistle/iphone/Whistle/en.lproj/WhistleViewController.xib
+c000000004D8165240000000000001A3D
+t1300325668
+s6717
+
+N/Users/yohei/Dropbox/whistle/iphone/Whistle/icon_57px.png
+c000000004D816524000000000000035E
+t1300325668
+s862
+
+N/Users/yohei/Dropbox/whistle/iphone/Whistle/main.m
+c000000004D8165240000000000000162
+t1300325668
+s354
+i<UIKit/UIKit.h>
+
+N/Users/yohei/Dropbox/whistle/iphone/Whistle/sei_ge_hoissuru01.mp3
+c000000004D81652400000000000032C9
+t1300325668
+s13001
+
+N/Users/yohei/Dropbox/whistle/iphone/Whistle/whistle.mp3
+c000000004D8165240000000000004A80
+t1300325668
+s19072
+
+N/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app
+t1303179786
+s510
+
+N/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app.dSYM
+t1303179785
+s102
+
+N/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/Info.plist
+t1303179781
+s1070
+
+N/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/PkgInfo
+t1303179781
+s8
+
+N/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/ResourceRules.plist
+t1303179781
+s485
+
+N/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/Whistle
+t1303179784
+s52284
+
+N/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/btn_off.png
+t1303179785
+s6235
+
+N/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/btn_on.png
+t1303179785
+s5674
+
+N/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/embedded.mobileprovision
+t1303179785
+s7173
+
+N/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/en.lproj/InfoPlist.strings
+t1303179785
+s42
+
+N/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/en.lproj/MainWindow.nib
+t1303179785
+s1681
+
+N/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/en.lproj/WhistleViewController.nib
+t1303179785
+s1269
+
+N/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/icon_57px.png
+t1303179785
+s967
+
+N/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/sei_ge_hoissuru01.mp3
+t1303179785
+s13001
+
+N/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/whistle.mp3
+t1303179785
+s19072
+
+N/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv6/Whistle
+t1303179784
+s23656
+
+N/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv6/Whistle.LinkFileList
+c000000004DACF2050000000000000172
+t1303179781
+s370
+
+N/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv6/WhistleAppDelegate.o
+t1303179783
+s50012
+
+N/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv6/WhistleViewController.o
+t1303179783
+s47448
+
+N/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv6/main.o
+t1303179783
+s3092
+
+N/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv7/Whistle
+t1303179784
+s23612
+
+N/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv7/Whistle.LinkFileList
+c000000004DACF2050000000000000172
+t1303179781
+s370
+
+N/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv7/WhistleAppDelegate.o
+t1303179783
+s50188
+
+N/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv7/WhistleViewController.o
+t1303179783
+s47652
+
+N/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv7/main.o
+t1303179783
+s3152
+
+N/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle.xcent
+t1303179785
+s396
+
+N/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/yohei/Dropbox/whistle/iphone/icon_57px.png
+c000000004D816524000000000000035E
+t1300325668
+s862
+
+N/Users/yohei/Library/MobileDevice/Provisioning Profiles/D9BC9896-67E5-4077-BB46-DC454BAC9E5E.mobileprovision
+c000000004DA6380B0000000000001C05
+t1302738955
+s7173
+
+N/var/folders/GM/GMUwth-mHn8RTzYcaxjK2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whistle-Prefix-bchexwkfdvhbpoboyihvnzkqjejw/Whistle-Prefix.pch.gch
+t1303179782
+s8238808
+
+N/var/folders/GM/GMUwth-mHn8RTzYcaxjK2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whistle-Prefix-hfiibbynppeudpeeksbgjhmlmojl/Whistle-Prefix.pch.gch
+t1303179782
+s7751384
+
+NWhistle/Whistle-Info.plist
+c000000004D8165240000000000000508
+t1300325668
+s1288
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies324872581#324872581#0(288"[WARN]iOS deployment target '4.3' for architecture 'armv6' and variant 'normal' is greater than the maximum value '4.2.99' for the iOS 4.2 SDK.[WARN]iOS deployment target '4.3' for architecture 'armv7' and variant 'normal' is greater than the maximum value '4.2.99' for the iOS 4.2 SDK.2(22@137"iOS deployment target '4.3' for architecture 'armv6' and variant 'normal' is greater than the maximum value '4.2.99' for the iOS 4.2 SDK.324872581#18446744073709551615#0#0(1@0"0(22@137"iOS deployment target '4.3' for architecture 'armv7' and variant 'normal' is greater than the maximum value '4.2.99' for the iOS 4.2 SDK.324872581#18446744073709551615#0#0(1@0"0(0#1#0"8603939328#0"0#
+
+CCodeSign /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app
+s324872586.019786
+e324872586.998515
+r1
+xCodeSign
+x/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app
+lSLF07#2@41"CodeSign build/Debug-iphoneos/Whistle.app324872586#324872586#0(0"0(0#0#68"/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app8610153248#638"    cd /Users/yohei/Dropbox/whistle/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: YOHEI YASUKAWA (97Y43SMR5C)" --resource-rules=/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/ResourceRules.plist --entitlements /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle.xcent /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app0#
+
+CCompileC build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv6/WhistleAppDelegate.o /Users/yohei/Dropbox/whistle/iphone/Whistle/WhistleAppDelegate.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s324872582.777758
+e324872583.047208
+r1
+xCompileC
+xbuild/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv6/WhistleAppDelegate.o
+x/Users/yohei/Dropbox/whistle/iphone/Whistle/WhistleAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@72"Compile /Users/yohei/Dropbox/whistle/iphone/Whistle/WhistleAppDelegate.m324872582#324872583#0(0"0(0#0#64"/Users/yohei/Dropbox/whistle/iphone/Whistle/WhistleAppDelegate.m8608272864#1802"    cd /Users/yohei/Dropbox/whistle/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle-generated-files.hmap -I/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle-own-target-headers.hmap -I/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle-all-target-headers.hmap -iquote /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle-project-headers.hmap -F/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos -I/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/include -I/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/DerivedSources/armv6 -I/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/GM/GMUwth-mHn8RTzYcaxjK2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whistle-Prefix-hfiibbynppeudpeeksbgjhmlmojl/Whistle-Prefix.pch -c /Users/yohei/Dropbox/whistle/iphone/Whistle/WhistleAppDelegate.m -o /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv6/WhistleAppDelegate.o0#
+
+CCompileC build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv6/WhistleViewController.o /Users/yohei/Dropbox/whistle/iphone/Whistle/WhistleViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s324872582.778923
+e324872583.051665
+r1
+xCompileC
+xbuild/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv6/WhistleViewController.o
+x/Users/yohei/Dropbox/whistle/iphone/Whistle/WhistleViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@75"Compile /Users/yohei/Dropbox/whistle/iphone/Whistle/WhistleViewController.m324872582#324872583#0(0"0(0#0#67"/Users/yohei/Dropbox/whistle/iphone/Whistle/WhistleViewController.m8609273216#1808"    cd /Users/yohei/Dropbox/whistle/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle-generated-files.hmap -I/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle-own-target-headers.hmap -I/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle-all-target-headers.hmap -iquote /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle-project-headers.hmap -F/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos -I/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/include -I/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/DerivedSources/armv6 -I/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/GM/GMUwth-mHn8RTzYcaxjK2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whistle-Prefix-hfiibbynppeudpeeksbgjhmlmojl/Whistle-Prefix.pch -c /Users/yohei/Dropbox/whistle/iphone/Whistle/WhistleViewController.m -o /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv6/WhistleViewController.o0#
+
+CCompileC build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv6/main.o /Users/yohei/Dropbox/whistle/iphone/Whistle/main.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s324872582.776564
+e324872583.023038
+r1
+xCompileC
+xbuild/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv6/main.o
+x/Users/yohei/Dropbox/whistle/iphone/Whistle/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@58"Compile /Users/yohei/Dropbox/whistle/iphone/Whistle/main.m324872582#324872583#0(0"0(0#0#50"/Users/yohei/Dropbox/whistle/iphone/Whistle/main.m8600370240#1774"    cd /Users/yohei/Dropbox/whistle/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle-generated-files.hmap -I/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle-own-target-headers.hmap -I/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle-all-target-headers.hmap -iquote /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle-project-headers.hmap -F/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos -I/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/include -I/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/DerivedSources/armv6 -I/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/GM/GMUwth-mHn8RTzYcaxjK2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whistle-Prefix-hfiibbynppeudpeeksbgjhmlmojl/Whistle-Prefix.pch -c /Users/yohei/Dropbox/whistle/iphone/Whistle/main.m -o /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv7/WhistleAppDelegate.o /Users/yohei/Dropbox/whistle/iphone/Whistle/WhistleAppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s324872583.018593
+e324872583.165279
+r1
+xCompileC
+xbuild/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv7/WhistleAppDelegate.o
+x/Users/yohei/Dropbox/whistle/iphone/Whistle/WhistleAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@72"Compile /Users/yohei/Dropbox/whistle/iphone/Whistle/WhistleAppDelegate.m324872583#324872583#0(0"0(0#0#64"/Users/yohei/Dropbox/whistle/iphone/Whistle/WhistleAppDelegate.m8609185792#1802"    cd /Users/yohei/Dropbox/whistle/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle-generated-files.hmap -I/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle-own-target-headers.hmap -I/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle-all-target-headers.hmap -iquote /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle-project-headers.hmap -F/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos -I/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/include -I/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/DerivedSources/armv7 -I/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/GM/GMUwth-mHn8RTzYcaxjK2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whistle-Prefix-bchexwkfdvhbpoboyihvnzkqjejw/Whistle-Prefix.pch -c /Users/yohei/Dropbox/whistle/iphone/Whistle/WhistleAppDelegate.m -o /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv7/WhistleAppDelegate.o0#
+
+CCompileC build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv7/WhistleViewController.o /Users/yohei/Dropbox/whistle/iphone/Whistle/WhistleViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s324872583.023225
+e324872583.207960
+r1
+xCompileC
+xbuild/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv7/WhistleViewController.o
+x/Users/yohei/Dropbox/whistle/iphone/Whistle/WhistleViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@75"Compile /Users/yohei/Dropbox/whistle/iphone/Whistle/WhistleViewController.m324872583#324872583#0(0"0(0#0#67"/Users/yohei/Dropbox/whistle/iphone/Whistle/WhistleViewController.m8608577024#1808"    cd /Users/yohei/Dropbox/whistle/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle-generated-files.hmap -I/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle-own-target-headers.hmap -I/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle-all-target-headers.hmap -iquote /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle-project-headers.hmap -F/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos -I/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/include -I/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/DerivedSources/armv7 -I/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/GM/GMUwth-mHn8RTzYcaxjK2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whistle-Prefix-bchexwkfdvhbpoboyihvnzkqjejw/Whistle-Prefix.pch -c /Users/yohei/Dropbox/whistle/iphone/Whistle/WhistleViewController.m -o /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv7/WhistleViewController.o0#
+
+CCompileC build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv7/main.o /Users/yohei/Dropbox/whistle/iphone/Whistle/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s324872582.780228
+e324872583.018397
+r1
+xCompileC
+xbuild/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv7/main.o
+x/Users/yohei/Dropbox/whistle/iphone/Whistle/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@58"Compile /Users/yohei/Dropbox/whistle/iphone/Whistle/main.m324872582#324872583#0(0"0(0#0#50"/Users/yohei/Dropbox/whistle/iphone/Whistle/main.m8599993504#1774"    cd /Users/yohei/Dropbox/whistle/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle-generated-files.hmap -I/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle-own-target-headers.hmap -I/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle-all-target-headers.hmap -iquote /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle-project-headers.hmap -F/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos -I/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/include -I/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/DerivedSources/armv7 -I/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/GM/GMUwth-mHn8RTzYcaxjK2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whistle-Prefix-bchexwkfdvhbpoboyihvnzkqjejw/Whistle-Prefix.pch -c /Users/yohei/Dropbox/whistle/iphone/Whistle/main.m -o /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/yohei/Dropbox/whistle/iphone/Whistle/en.lproj/MainWindow.xib
+s324872585.254653
+e324872585.872744
+r1
+xCompileXIB
+x/Users/yohei/Dropbox/whistle/iphone/Whistle/en.lproj/MainWindow.xib
+lSLF07#2@42"CompileXIB Whistle/en.lproj/MainWindow.xib324872585#324872585#0(0"0(0#0#67"/Users/yohei/Dropbox/whistle/iphone/Whistle/en.lproj/MainWindow.xib8609037184#559"    cd /Users/yohei/Dropbox/whistle/iphone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/en.lproj/MainWindow.nib /Users/yohei/Dropbox/whistle/iphone/Whistle/en.lproj/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/yohei/Dropbox/whistle/iphone/Whistle/en.lproj/WhistleViewController.xib
+s324872585.255950
+e324872585.873888
+r1
+xCompileXIB
+x/Users/yohei/Dropbox/whistle/iphone/Whistle/en.lproj/WhistleViewController.xib
+lSLF07#2@53"CompileXIB Whistle/en.lproj/WhistleViewController.xib324872585#324872585#0(0"0(0#0#78"/Users/yohei/Dropbox/whistle/iphone/Whistle/en.lproj/WhistleViewController.xib8608501856#581"    cd /Users/yohei/Dropbox/whistle/iphone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/en.lproj/WhistleViewController.nib /Users/yohei/Dropbox/whistle/iphone/Whistle/en.lproj/WhistleViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/btn_off.png Whistle/btn_off.png
+s324872585.757325
+e324872585.939932
+r1
+xCopyPNGFile
+x/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/btn_off.png
+xWhistle/btn_off.png
+lSLF07#2@76"CopyPNGFile build/Debug-iphoneos/Whistle.app/btn_off.png Whistle/btn_off.png324872585#324872585#0(0"0(0#0#55"/Users/yohei/Dropbox/whistle/iphone/Whistle/btn_off.png8608588864#561"    cd /Users/yohei/Dropbox/whistle/iphone    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/yohei/Dropbox/whistle/iphone/Whistle/btn_off.png /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/btn_off.png0#
+
+CCopyPNGFile /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/btn_on.png Whistle/btn_on.png
+s324872585.835919
+e324872585.939707
+r1
+xCopyPNGFile
+x/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/btn_on.png
+xWhistle/btn_on.png
+lSLF07#2@74"CopyPNGFile build/Debug-iphoneos/Whistle.app/btn_on.png Whistle/btn_on.png324872585#324872585#0(0"0(0#0#54"/Users/yohei/Dropbox/whistle/iphone/Whistle/btn_on.png8608389120#559"    cd /Users/yohei/Dropbox/whistle/iphone    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/yohei/Dropbox/whistle/iphone/Whistle/btn_on.png /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/btn_on.png0#
+
+CCopyPNGFile /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/icon_57px.png Whistle/icon_57px.png
+s324872585.257381
+e324872585.671804
+r1
+xCopyPNGFile
+x/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/icon_57px.png
+xWhistle/icon_57px.png
+lSLF07#2@80"CopyPNGFile build/Debug-iphoneos/Whistle.app/icon_57px.png Whistle/icon_57px.png324872585#324872585#0(0"0(0#0#57"/Users/yohei/Dropbox/whistle/iphone/Whistle/icon_57px.png8605624160#565"    cd /Users/yohei/Dropbox/whistle/iphone    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/yohei/Dropbox/whistle/iphone/Whistle/icon_57px.png /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/icon_57px.png0#
+
+CCopyPNGFile /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/icon_57px.png icon_57px.png
+s324872585.672100
+e324872585.757197
+r1
+xCopyPNGFile
+x/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/icon_57px.png
+xicon_57px.png
+lSLF07#2@72"CopyPNGFile build/Debug-iphoneos/Whistle.app/icon_57px.png icon_57px.png324872585#324872585#0(0"0(0#0#49"/Users/yohei/Dropbox/whistle/iphone/icon_57px.png8609537920#557"    cd /Users/yohei/Dropbox/whistle/iphone    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/yohei/Dropbox/whistle/iphone/icon_57px.png /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/icon_57px.png0#
+
+CCopyStringsFile /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/en.lproj/InfoPlist.strings Whistle/en.lproj/InfoPlist.strings
+s324872585.253672
+e324872585.835799
+r1
+xCopyStringsFile
+x/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/en.lproj/InfoPlist.strings
+xWhistle/en.lproj/InfoPlist.strings
+lSLF07#2@39"Copy Whistle/en.lproj/InfoPlist.strings324872585#324872585#0(0"0(0#0#70"/Users/yohei/Dropbox/whistle/iphone/Whistle/en.lproj/InfoPlist.strings8609644800#471"    cd /Users/yohei/Dropbox/whistle/iphone    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary Whistle/en.lproj/InfoPlist.strings --outdir /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/en.lproj0#
+
+CCpResource build/Debug-iphoneos/Whistle.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s324872581.438157
+e324872581.482661
+r1
+xCpResource
+xbuild/Debug-iphoneos/Whistle.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist324872581#324872581#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8604274752#488"    cd /Users/yohei/Dropbox/whistle/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app0#
+
+CCpResource build/Debug-iphoneos/Whistle.app/sei_ge_hoissuru01.mp3 Whistle/sei_ge_hoissuru01.mp3
+s324872585.872894
+e324872585.918375
+r1
+xCpResource
+xbuild/Debug-iphoneos/Whistle.app/sei_ge_hoissuru01.mp3
+xWhistle/sei_ge_hoissuru01.mp3
+lSLF07#2@34"Copy Whistle/sei_ge_hoissuru01.mp3324872585#324872585#0(0"0(0#0#65"/Users/yohei/Dropbox/whistle/iphone/Whistle/sei_ge_hoissuru01.mp38608304640#464"    cd /Users/yohei/Dropbox/whistle/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/yohei/Dropbox/whistle/iphone/Whistle/sei_ge_hoissuru01.mp3 /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app0#
+
+CCpResource build/Debug-iphoneos/Whistle.app/whistle.mp3 Whistle/whistle.mp3
+s324872585.256684
+e324872585.361189
+r1
+xCpResource
+xbuild/Debug-iphoneos/Whistle.app/whistle.mp3
+xWhistle/whistle.mp3
+lSLF07#2@24"Copy Whistle/whistle.mp3324872585#324872585#0(0"0(0#0#55"/Users/yohei/Dropbox/whistle/iphone/Whistle/whistle.mp38608285472#454"    cd /Users/yohei/Dropbox/whistle/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/yohei/Dropbox/whistle/iphone/Whistle/whistle.mp3 /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app0#
+
+CCreateUniversalBinary /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/Whistle normal "armv6 armv7"
+s324872584.345296
+e324872584.377731
+r1
+xCreateUniversalBinary
+x/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/Whistle
+xnormal
+xarmv6 armv7
+lSLF07#2@83"CreateUniversalBinary build/Debug-iphoneos/Whistle.app/Whistle normal "armv6 armv7"324872584#324872584#0(0"0(0#0#47"/Users/yohei/Dropbox/whistle/iphone/armv6 armv78604196064#506"    cd /Users/yohei/Dropbox/whistle/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv6/Whistle /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv7/Whistle -output /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/Whistle0#
+
+CGenerateDSYMFile /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app.dSYM /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/Whistle
+s324872584.377854
+e324872585.253428
+r1
+xGenerateDSYMFile
+x/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app.dSYM
+x/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/Whistle
+lSLF07#2@95"GenerateDSYMFile build/Debug-iphoneos/Whistle.app.dSYM build/Debug-iphoneos/Whistle.app/Whistle324872584#324872585#0(0"0(0#0#76"/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/Whistle8603263584#353"    cd /Users/yohei/Dropbox/whistle/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/Whistle -o /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app.dSYM0#
+
+CLd /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv6/Whistle normal armv6
+s324872583.051791
+e324872584.344001
+r1
+xLd
+x/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv6/Whistle
+xnormal
+xarmv6
+lSLF07#2@118"Link /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv6/Whistle324872583#324872584#0(0"0(0#0#0"8608395776#882"    cd /Users/yohei/Dropbox/whistle/iphone    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos -F/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos -filelist /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv6/Whistle.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework AVFoundation -framework UIKit -framework Foundation -framework CoreGraphics -prebind -o /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv6/Whistle0#
+
+CLd /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv7/Whistle normal armv7
+s324872583.208082
+e324872584.345171
+r1
+xLd
+x/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv7/Whistle
+xnormal
+xarmv7
+lSLF07#2@118"Link /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv7/Whistle324872583#324872584#0(0"0(0#0#0"8604781536#882"    cd /Users/yohei/Dropbox/whistle/iphone    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos -F/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos -filelist /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv7/Whistle.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework AVFoundation -framework UIKit -framework Foundation -framework CoreGraphics -prebind -o /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Objects-normal/armv7/Whistle0#
+
+CProcessInfoPlistFile /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/Info.plist Whistle/Whistle-Info.plist
+s324872581.439243
+e324872581.451101
+r1
+xProcessInfoPlistFile
+x/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/Info.plist
+xWhistle/Whistle-Info.plist
+lSLF07#2@34"Process Whistle/Whistle-Info.plist324872581#324872581#0(0"0(0#0#62"/Users/yohei/Dropbox/whistle/iphone/Whistle/Whistle-Info.plist8602846624#558"    cd /Users/yohei/Dropbox/whistle/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Whistle/Whistle-Info.plist -genpkginfo /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/ResourceRules.plist -o /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/Info.plist0#
+
+CProcessPCH /var/folders/GM/GMUwth-mHn8RTzYcaxjK2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whistle-Prefix-bchexwkfdvhbpoboyihvnzkqjejw/Whistle-Prefix.pch.gch Whistle/Whistle-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+s324872581.484029
+e324872582.776422
+r1
+xProcessPCH
+x/var/folders/GM/GMUwth-mHn8RTzYcaxjK2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whistle-Prefix-bchexwkfdvhbpoboyihvnzkqjejw/Whistle-Prefix.pch.gch
+xWhistle/Whistle-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@37"Precompile Whistle/Whistle-Prefix.pch324872581#324872582#0(0"0(0#0#62"/Users/yohei/Dropbox/whistle/iphone/Whistle/Whistle-Prefix.pch8608489664#1675"    cd /Users/yohei/Dropbox/whistle/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle-generated-files.hmap -I/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle-own-target-headers.hmap -I/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle-all-target-headers.hmap -iquote /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle-project-headers.hmap -F/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos -I/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/include -I/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/DerivedSources/armv7 -I/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -c /Users/yohei/Dropbox/whistle/iphone/Whistle/Whistle-Prefix.pch -o /var/folders/GM/GMUwth-mHn8RTzYcaxjK2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whistle-Prefix-bchexwkfdvhbpoboyihvnzkqjejw/Whistle-Prefix.pch.gch0#
+
+CProcessPCH /var/folders/GM/GMUwth-mHn8RTzYcaxjK2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whistle-Prefix-hfiibbynppeudpeeksbgjhmlmojl/Whistle-Prefix.pch.gch Whistle/Whistle-Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
+s324872581.482822
+e324872582.630195
+r1
+xProcessPCH
+x/var/folders/GM/GMUwth-mHn8RTzYcaxjK2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whistle-Prefix-hfiibbynppeudpeeksbgjhmlmojl/Whistle-Prefix.pch.gch
+xWhistle/Whistle-Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@37"Precompile Whistle/Whistle-Prefix.pch324872581#324872582#0(0"0(0#0#62"/Users/yohei/Dropbox/whistle/iphone/Whistle/Whistle-Prefix.pch8608680832#1675"    cd /Users/yohei/Dropbox/whistle/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle-generated-files.hmap -I/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle-own-target-headers.hmap -I/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle-all-target-headers.hmap -iquote /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle-project-headers.hmap -F/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos -I/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/include -I/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/DerivedSources/armv6 -I/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -c /Users/yohei/Dropbox/whistle/iphone/Whistle/Whistle-Prefix.pch -o /var/folders/GM/GMUwth-mHn8RTzYcaxjK2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whistle-Prefix-hfiibbynppeudpeeksbgjhmlmojl/Whistle-Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/yohei/Library/MobileDevice/Provisioning Profiles/D9BC9896-67E5-4077-BB46-DC454BAC9E5E.mobileprovision" /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/embedded.mobileprovision
+s324872585.940035
+e324872585.956078
+r1
+xProcessProductPackaging
+x/Users/yohei/Library/MobileDevice/Provisioning Profiles/D9BC9896-67E5-4077-BB46-DC454BAC9E5E.mobileprovision
+x/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/embedded.mobileprovision
+lSLF07#2@192"ProcessProductPackaging "/Users/yohei/Library/MobileDevice/Provisioning Profiles/D9BC9896-67E5-4077-BB46-DC454BAC9E5E.mobileprovision" build/Debug-iphoneos/Whistle.app/embedded.mobileprovision324872585#324872585#0(0"0(0#0#93"/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/embedded.mobileprovision8602656256#417"    cd /Users/yohei/Dropbox/whistle/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/yohei/Library/MobileDevice/Provisioning Profiles/D9BC9896-67E5-4077-BB46-DC454BAC9E5E.mobileprovision" -o /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle.xcent
+s324872585.960389
+e324872586.019694
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle.xcent
+lSLF07#2@175"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle.xcent324872585#324872586#0(0"0(0#0#98"/Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle.xcent8600002976#426"    cd /Users/yohei/Dropbox/whistle/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/yohei/Dropbox/whistle/iphone/build/Whistle.build/Debug-iphoneos/Whistle.build/Whistle.xcent0#
+
+CTouch /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app
+s324872585.956200
+e324872585.960138
+r1
+xTouch
+x/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app
+lSLF07#2@74"Touch /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app324872585#324872585#0(0"0(0#0#0"8599965536#258"    cd /Users/yohei/Dropbox/whistle/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app0#
+
+CValidate /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app
+s324872586.998658
+e324872587.674396
+r1
+xValidate
+x/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app
+o2011-04-18 21:23:07.386 Validation[3415:607] *** Warning: Defaulting to the standard codesign tool
+lSLF07#2@41"Validate build/Debug-iphoneos/Whistle.app324872586#324872587#0(99"2011-04-18 21:23:07.386 Validation[3415:607] *** Warning: Defaulting to the standard codesign tool0(0#0#68"/Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app8609064960#367"    cd /Users/yohei/Dropbox/whistle/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/yohei/Dropbox/whistle/iphone/build/Debug-iphoneos/Whistle.app0#
+

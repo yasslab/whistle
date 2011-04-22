@@ -11,6 +11,7 @@
 
 @interface WhistleViewController : UIViewController {
     
+	// declare the variables used in this whistle application.
     UIButton *startButton;
     UIButton *endButton;
     

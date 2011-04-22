@@ -1,8 +1,33 @@
 // !$*UTF8*$!
 {
+	47231DC3136203FF001CAB3D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47721E04132B8165006DBF1D /* WhistleTests.m */;
+		name = "WhistleTests.m: 14";
+		rLen = 0;
+		rLoc = 201;
+		rType = 0;
+		vrLen = 438;
+		vrLoc = 0;
+	};
+	47629814135D120C007BD311 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 47768771132BADEA0052667C /* icon_57px.png */;
+	};
+	47629815135D120C007BD311 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47721E02132B8165006DBF1D /* WhistleTests.h */;
+		name = "WhistleTests.h: 18";
+		rLen = 0;
+		rLoc = 248;
+		rType = 0;
+		vrLen = 248;
+		vrLoc = 0;
+	};
 	47721DC8132B8164006DBF1D /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 478858A51331954100DB521B /* Whistle */;
+		activeSDKPreference = iphoneos4.2;
 		activeTarget = 47721DD0132B8164006DBF1D /* Whistle */;
 		codeSenseManager = 478858C31331955400DB521B /* Code sense */;
 		executables = (
@@ -133,15 +158,17 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 322016577;
-			PBXWorkspaceStateSaveDate = 322016577;
+			PBXPerProjectTemplateStateSaveDate = 325189537;
+			PBXWorkspaceStateSaveDate = 325189537;
 		};
 		perUserProjectItems = {
+			47231DC3136203FF001CAB3D /* PBXTextBookmark */ = 47231DC3136203FF001CAB3D /* PBXTextBookmark */;
+			47629814135D120C007BD311 /* PBXBookmark */ = 47629814135D120C007BD311 /* PBXBookmark */;
+			47629815135D120C007BD311 /* PBXTextBookmark */ = 47629815135D120C007BD311 /* PBXTextBookmark */;
+			477CF337135D4459002BB748 /* PBXTextBookmark */ = 477CF337135D4459002BB748 /* PBXTextBookmark */;
 			478858FC13319BE200DB521B /* PBXTextBookmark */ = 478858FC13319BE200DB521B /* PBXTextBookmark */;
-			478858FD13319BE200DB521B /* PBXBookmark */ = 478858FD13319BE200DB521B /* PBXBookmark */;
 			478858FE13319BE200DB521B /* PlistBookmark */ = 478858FE13319BE200DB521B /* PlistBookmark */;
 			478858FF13319BE200DB521B /* PBXTextBookmark */ = 478858FF13319BE200DB521B /* PBXTextBookmark */;
-			4788590013319BE200DB521B /* PBXTextBookmark */ = 4788590013319BE200DB521B /* PBXTextBookmark */;
 			4788590113319BE200DB521B /* PBXBookmark */ = 4788590113319BE200DB521B /* PBXBookmark */;
 			4788590213319BE200DB521B /* PBXBookmark */ = 4788590213319BE200DB521B /* PBXBookmark */;
 			4788590313319BE200DB521B /* PBXBookmark */ = 4788590313319BE200DB521B /* PBXBookmark */;
@@ -153,8 +180,6 @@
 			4788590913319BE200DB521B /* PBXTextBookmark */ = 4788590913319BE200DB521B /* PBXTextBookmark */;
 			4788590A13319BE200DB521B /* PBXTextBookmark */ = 4788590A13319BE200DB521B /* PBXTextBookmark */;
 			4788590B13319BE200DB521B /* PBXTextBookmark */ = 4788590B13319BE200DB521B /* PBXTextBookmark */;
-			4788590C13319BE200DB521B /* PBXTextBookmark */ = 4788590C13319BE200DB521B /* PBXTextBookmark */;
-			4788590D13319BE200DB521B /* PBXTextBookmark */ = 4788590D13319BE200DB521B /* PBXTextBookmark */;
 		};
 		sourceControlManager = 478858C21331955400DB521B /* Source Control */;
 		userBuildSettings = {
@@ -204,16 +229,16 @@
 	};
 	47721DEA132B8165006DBF1D /* WhistleViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1407, 693}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1407, 698}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 569}";
 		};
 	};
 	47721DEB132B8165006DBF1D /* WhistleViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1407, 2583}}";
+			sepNavIntBoundsRect = "{{0, 0}, {640.541, 2772}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 564}";
+			sepNavVisRange = "{0, 183}";
 		};
 	};
 	47721DF4132B8165006DBF1D /* WhistleTests */ = {
@@ -235,17 +260,28 @@
 	};
 	47721E02132B8165006DBF1D /* WhistleTests.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1407, 714}}";
-			sepNavSelRange = "{0, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1407, 694}}";
+			sepNavSelRange = "{248, 0}";
 			sepNavVisRange = "{0, 248}";
 		};
 	};
 	47721E04132B8165006DBF1D /* WhistleTests.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1407, 714}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 443}";
+			sepNavSelRange = "{201, 0}";
+			sepNavVisRange = "{0, 438}";
+			sepNavWindowFrame = "{{19, 0}, {1070, 1023}}";
 		};
+	};
+	477CF337135D4459002BB748 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47721E04132B8165006DBF1D /* WhistleTests.m */;
+		name = "WhistleTests.m: 14";
+		rLen = 0;
+		rLoc = 201;
+		rType = 0;
+		vrLen = 443;
+		vrLoc = 0;
 	};
 	478858A51331954100DB521B /* Whistle */ = {
 		isa = PBXExecutable;
@@ -271,6 +307,8 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = Whistle;
+		savedGlobals = {
+		};
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
@@ -299,10 +337,6 @@
 		vrLen = 45;
 		vrLoc = 0;
 	};
-	478858FD13319BE200DB521B /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 47768771132BADEA0052667C /* icon_57px.png */;
-	};
 	478858FE13319BE200DB521B /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 47721DFD132B8165006DBF1D /* WhistleTests-Info.plist */;
@@ -312,7 +346,7 @@
 		);
 		name = "/Users/yohei/Dropbox/whistle/iphone/WhistleTests/WhistleTests-Info.plist";
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 	};
 	478858FF13319BE200DB521B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -322,16 +356,6 @@
 		rLoc = 0;
 		rType = 0;
 		vrLen = 155;
-		vrLoc = 0;
-	};
-	4788590013319BE200DB521B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 47721E04132B8165006DBF1D /* WhistleTests.m */;
-		name = "WhistleTests.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 443;
 		vrLoc = 0;
 	};
 	4788590113319BE200DB521B /* PBXBookmark */ = {
@@ -375,7 +399,7 @@
 		);
 		name = "/Users/yohei/Dropbox/whistle/iphone/Whistle/Whistle-Info.plist";
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 	};
 	4788590713319BE200DB521B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -425,26 +449,6 @@
 		rLoc = 0;
 		rType = 0;
 		vrLen = 564;
-		vrLoc = 0;
-	};
-	4788590C13319BE200DB521B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 47721E02132B8165006DBF1D /* WhistleTests.h */;
-		name = "WhistleTests.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 248;
-		vrLoc = 0;
-	};
-	4788590D13319BE200DB521B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 47721E02132B8165006DBF1D /* WhistleTests.h */;
-		name = "WhistleTests.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 248;
 		vrLoc = 0;
 	};
 }
