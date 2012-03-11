@@ -59,7 +59,7 @@ type following command to clone it with Git. ::
 
 Or, visit the following repository. ::
 
-    https://github.com/yasulab/a-star-algorithm
+    https://github.com/yasulab/whistle
 
 To clone the code, you need to install `Git <http://git-scm.com/>`_.
 
